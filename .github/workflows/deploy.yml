@@ -1,0 +1,54 @@
+name: Déploiement GitHub Pages Gratuit
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: 'pages'
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupération du code
+        uses: actions/checkout@v4
+
+      - name: Installation Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Configuration pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 10
+
+      - name: Installation des dépendances
+        run: pnpm install --no-frozen-lockfile
+
+      - name: Compilation du projet
+        run: pnpm build
+
+      - name: Configuration GitHub Pages
+        uses: actions/configure-pages@v4
+
+      - name: Téléversement des artefacts
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './dist'
+
+      - name: Déploiement sur GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
