@@ -58,7 +58,7 @@ export const Header: React.FC<HeaderProps> = ({
             <div className="flex flex-col">
               <div className="flex items-center gap-1.5">
                 <span className="font-extrabold tracking-tight text-base sm:text-lg text-white">
-                  Mixify<span className="text-[#00F5A0] font-semibold text-xs ml-1">Transfer</span>
+                  Portamento<span className="text-[#00F5A0] font-semibold text-xs ml-1">by Mixify</span>
                 </span>
                 <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-[#00F5A0]/15 text-[#00F5A0] border border-[#00F5A0]/30 hidden xs:inline-block">
                   100% Gratuit

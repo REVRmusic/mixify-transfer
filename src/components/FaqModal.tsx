@@ -13,8 +13,8 @@ interface FaqItem {
 
 const FAQS: FaqItem[] = [
   {
-    q: 'Pourquoi l\'application Mixify Transfer est-elle 100% gratuite ?',
-    a: 'Mixify Transfer est un service offert par l\'écosystème Mixify (mixify.fr) pour la communauté des créateurs, DJs et passionnés de musique. Nous croyons que vos données musicales vous appartiennent. Il n\'y a aucun abonnement caché, aucun crédit payant ni revente de données.'
+    q: 'Que signifie « Portamento » et pourquoi est-ce 100% gratuit ?',
+    a: 'En musique, le portamento désigne la transition fluide et continue d\'une note à une autre sans rupture. L\'application Portamento a été conçue par l\'écosystème Mixify (mixify.fr) pour faire glisser vos playlists entre toutes les plateformes musicales, gratuitement, sans abonnement caché, sans faux crédits et sans revente de données.'
   },
   {
     q: 'Quels sont les prérequis pour la compatibilité Spotify ?',
@@ -26,7 +26,7 @@ const FAQS: FaqItem[] = [
   },
   {
     q: 'Mes morceaux d\'origine sur la source risquent-ils d\'être modifiés ?',
-    a: 'Jamais. Mixify Transfer opère en lecture seule sur votre service source. Vos playlists sources restent exactement dans leur état d\'origine.'
+    a: 'Jamais. Portamento opère en lecture seule sur votre service source. Vos playlists sources restent exactement dans leur état d\'origine.'
   },
   {
     q: 'Quels formats d\'export et d\'import sont supportés ?',

@@ -8,7 +8,7 @@ interface ContactModalProps {
 
 export const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) => {
   const [email, setEmail] = useState('');
-  const [subject, setSubject] = useState('Assistance Mixify Transfer');
+  const [subject, setSubject] = useState('Assistance Portamento (Mixify)');
   const [message, setMessage] = useState('');
   const [sent, setSent] = useState(false);
 

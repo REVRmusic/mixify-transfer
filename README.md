@@ -1,10 +1,11 @@
-# Mixify Transfer (mixify.fr)
+# Portamento by Mixify (mixify.fr)
 
-> Passerelle musicale universelle, moderne & **100% gratuite**, développée pour transférer des playlists entre Spotify, Deezer, Apple Music, YouTube Music, TIDAL, SoundCloud, et plus de 20 plateformes musicales.
+> **Portamento** est la passerelle musicale universelle, moderne & **100% gratuite** de l'écosystème [Mixify](https://mixify.fr).  
+> *En musique, le portamento désigne la transition fluide et continue d'une note à une autre sans rupture. Portamento fait glisser votre univers musical d'une plateforme à l'autre en toute liberté.*
 
 ---
 
-## 🌐 Liens Publics
+## 🌐 Liens Publics en Direct
 
 - **Site en ligne (Hébergement GitHub Pages Gratuit)** : [https://revrmusic.github.io/mixify-transfer/](https://revrmusic.github.io/mixify-transfer/)
 - **Dépôt GitHub** : [https://github.com/REVRmusic/mixify-transfer](https://github.com/REVRmusic/mixify-transfer)
@@ -14,11 +15,11 @@
 ## ✨ Points forts & Spécificités
 
 - **100% Gratuit & Illimité** : aucun système de faux crédits, aucun abonnement, aucune restriction artificielle de volume.
-- **Design Studio Mixify** : identité sombre (Obsidian), touches néon Émeraude (`#00F5A0`) et Cyan (`#00D9F5`), égaliseur audio animé.
-- **Prise en charge de plus de 20 plateformes** : Spotify, Deezer, Apple Music, YouTube Music, TIDAL, Amazon Music, SoundCloud, Qobuz, Beatport, etc.
-- **Imports polyvalents** : Compte direct, Lien Web / URL avec auto-détection, fichiers locaux (.CSV, .M3U, .M3U8, .JSON, .TXT) et texte libre.
-- **Gestion fine des playlists** : calcul des durées, inspecteur titre par titre avec exclusion/inclusion individuelle.
-- **Moteur de réconciliation acoustique en direct** : simulation de matching acoustique avec score de correspondance et signal sonore désactivable.
+- **Identité Studio Mixify** : thème sombre profond (Obsidian `#08090E`), accents néon Émeraude (`#00F5A0`) et Cyan (`#00D9F5`), visualiseur d'égaliseur audio interactif.
+- **Plus de 20 plateformes musicales** : Spotify, Deezer, Apple Music, YouTube Music, TIDAL, Amazon Music, SoundCloud, Qobuz, Beatport, etc.
+- **Multi-méthodes d'import** : Compte direct, Lien Web avec détection d'URL, fichiers locaux (.CSV, .M3U, .M3U8, .JSON, .TXT) et texte libre.
+- **Gestion fine de bibliothèque** : calcul automatique des durées, inspecteur titre par titre avec inclusion/exclusion individuelle.
+- **Moteur de réconciliation acoustique** : matching acoustique en direct avec score de correspondance et signal sonore activable.
 - **Exports multi-formats** : téléchargement instantané en CSV, M3U8 et JSON.
 - **Conformité stricte Spotify** : mention impérative « Compatibilité Spotify » (compte Spotify Premium requis).
 

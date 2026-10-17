@@ -18,7 +18,7 @@ export const FooterHelp: React.FC<FooterHelpProps> = ({
         <div className="flex items-center gap-2 mb-4">
           <MixifyLogoMark className="w-7 h-7" />
           <span className="font-extrabold text-base text-white tracking-tight">
-            Mixify<span className="text-[#00F5A0] font-semibold text-xs ml-1">Transfer</span>
+            Portamento<span className="text-[#00F5A0] font-semibold text-xs ml-1">by Mixify</span>
           </span>
         </div>
 
@@ -27,7 +27,7 @@ export const FooterHelp: React.FC<FooterHelpProps> = ({
           La musique vous appartient, partout et sans barrières.
         </h3>
         <p className="text-xs sm:text-sm text-mixify-muted max-w-lg mb-6 leading-relaxed">
-          Mixify Transfer est un projet indépendant créé pour libérer vos bibliothèques musicales sans aucun abonnement payant ni revente de données.
+          Portamento est un projet libre créé pour faire glisser vos bibliothèques musicales d'une plateforme à une autre sans rupture, sans abonnement et dans le respect de vos données.
         </p>
 
         {/* Feature Badges */}
